@@ -1,0 +1,143 @@
+body {
+  color: #222;
+  background: #f4f4f4;
+  font: 400 14px CoreSans, Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #222;
+  padding: 10px;
+  color: white;
+  margin-top: 0px;
+}
+
+.App-title {
+  font-size: 1.8em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+ol{
+  padding: 10px;
+}
+li{
+  display: flex ;
+  justify-content: space-between;
+  min-width: 205px;
+  font-family: fantasy;
+  margin: 10px 0;
+  padding: 10px;
+  background: #ffffff;
+  border: 1px solid #e3e3e3;
+  border-radius: 5px;
+  font-variant: small-caps;
+  font-size: 1.4em;
+  line-height: 40px;
+  white-space: nowrap;
+}
+
+button{
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #dddddd;
+  background: transparent;
+  color: #808080;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+button:hover {
+  color: #222;
+  border: 2px solid #979797;
+}
+button.dark:hover {
+  color: #dddddd;
+  border: 2px solid #dddddd;
+}
+button.light {
+  color: #444;
+  border: 2px solid #555;
+}
+button.light:hover {
+  color: #111;
+  border: 2px solid #000;
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  margin-right: 10px;
+  border: 1px solid #dddddd;
+}
+
+input:focus {
+  box-shadow: 0px 0px 5px #808080;
+}
+
+h1{
+  font-family: cursive;
+  font-variant: small-caps;
+  text-decoration: underline;
+}
+
+a{
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+*:focus {
+  outline: none;
+}
+.fluid {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  min-width: 350px;
+  max-width: 90%;
+  margin: 20px auto;
+  padding: 10px;
+  background: #ffffff;
+  border: 1px solid #e3e3e3;
+  border-radius: 5px;
+}
+.pointer {
+  cursor: pointer;
+}
+.timer{
+  font-size: 1.5em;
+  line-height: 90px;
+  font-weight: bold;
+}
+.options{
+  text-align: left;
+}
+label{
+  font-size: 1.2em;
+  line-height: 30px;
+}
